@@ -1,29 +1,12 @@
+markdown
 # NightNext
 
 Official code for NightNext nighttime semantic segmentation (Submitted to Pattern Analysis and Applications)
 
-## Introduction
+## Installation
 
-This repository implements **NightNext**, an improved segmentation method for nighttime driving scene segmentation. The code is built on **MMSegmentation 0.24.1**.
-
-## Highlights
-
-- **SDEM** (Structure‑aware Detail Enhancement Module): filters noisy shallow features via frequency‑domain recalibration and multi‑scale refinement.
-- **BDCF** (Boundary‑aware Detail‑Context Fusion Module): adaptively fuses detail and semantic features using boundary priors.
-- **DBS** (Decoupled Boundary Supervision): decouples boundary supervision from detail feature encoding to avoid error propagation.
-
-## Environment
-
-### Requirements
-
-The dependencies are listed in `requirements.txt` at the **project root**:
-
-```bash
-cd <path‑to‑nightnext>
-cat requirements.txt   # -> references requirements/{optional,runtime,tests}.txt
-Installation
 Step 1. Clone and enter the repo:
-bash
+```bash
 git clone https://github.com/hxm1129/nightnext.git
 cd nightnext
 Step 2. Install dependencies:
