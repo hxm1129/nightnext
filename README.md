@@ -1,7 +1,5 @@
 # NightNext
 
-Official code for NightNext nighttime semantic segmentation (Submitted to Pattern Analysis and Applications)
-
 ## Installation
 
 Step 1. Clone and enter the repo:
@@ -74,13 +72,6 @@ Results are reported as mean ± std over three independent training runs.
 ## Pretrained Weights
 
 Checkpoints and pretrained backbone weights are stored under `nightcitypth/` and `pretrained/` (please place your trained `.pth` files there or update the config accordingly).
-
-## Troubleshooting
-
-- `FileNotFoundError: requirements.txt`: Ensure you run commands under the repository root directory.
-- Dataset loading error: Check the `data_root` variable in config files matches your local dataset path.
-
-## Acknowledgements
 
 This project is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
 
